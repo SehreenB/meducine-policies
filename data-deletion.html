@@ -3,91 +3,139 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Meducine — Data Deletion Request</title>
+<title>Meducine - Request Data Deletion</title>
 <style>
-  :root {
-    --bg: #ffffff; --text: #1a2e33; --text-muted: #526b72;
-    --accent: #0b626a; --border: #e2e8ea; --card-bg: #f7fafb;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #0f1a1c; --text: #eaf2f3; --text-muted: #9db3b8;
-      --accent: #4fb8c2; --border: #24373b; --card-bg: #16262a;
-    }
-  }
-  :root[data-theme="dark"] {
-    --bg: #0f1a1c; --text: #eaf2f3; --text-muted: #9db3b8;
-    --accent: #4fb8c2; --border: #24373b; --card-bg: #16262a;
-  }
-  * { box-sizing: border-box; }
   body {
-    margin: 0; background: var(--bg); color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
+    color: #222;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+    background: #fff;
   }
-  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
-  h1 { font-size: clamp(1.6rem, 5vw, 2.2rem); margin: 0 0 8px; color: var(--accent); }
-  .updated { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 32px; }
-  h2 { font-size: 1.2rem; margin-top: 36px; padding-bottom: 8px; border-bottom: 2px solid var(--border); }
-  ol, ul { padding-left: 22px; }
-  li { margin-bottom: 10px; }
-  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.92rem; }
-  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
-  th { color: var(--text-muted); font-weight: 600; }
-  .step-box {
-    background: var(--card-bg); border: 1px solid var(--border);
-    border-radius: 12px; padding: 24px; margin: 20px 0;
+  h1 {
+    font-size: 28px;
+    margin-bottom: 4px;
   }
-  .email-highlight {
-    display: inline-block; background: var(--accent); color: #fff;
-    padding: 4px 12px; border-radius: 6px; font-weight: 600;
+  .updated {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 32px;
   }
-  a { color: var(--accent); }
+  h2 {
+    font-size: 20px;
+    margin-top: 36px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 6px;
+  }
+  p {
+    margin: 10px 0;
+  }
+  ul, ol {
+    margin: 10px 0;
+    padding-left: 24px;
+  }
+  li {
+    margin: 4px 0;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    font-size: 15px;
+  }
+  th {
+    background: #f5f5f5;
+  }
+  a {
+    color: #0066cc;
+  }
+  footer {
+    margin-top: 40px;
+    font-size: 13px;
+    color: #777;
+  }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <h1>Meducine — Request Data Deletion</h1>
-  <p class="updated">Last updated: September 2026</p>
 
-  <p>Meducine gives you control over your personal data. You can request that some or all of the data associated with your account be deleted, whether or not you want to keep using the app.</p>
+<h1>Meducine - Request Data Deletion</h1>
+<p class="updated"><strong>Last updated:</strong> September 2026</p>
 
-  <h2>How to Request Deletion</h2>
-  <div class="step-box">
-    <ol>
-      <li>Send an email to <span class="email-highlight">dev.meducine@gmail.com</span> from the email address associated with your Meducine account (so we can verify the request is really you)</li>
-      <li>In the subject line, write: <strong>"Data Deletion Request"</strong></li>
-      <li>In the body, tell us what you'd like deleted — either your <strong>entire account</strong>, or specific data only (see the table below for what can be deleted individually)</li>
-      <li>We will confirm your request and complete it within <strong>30 days</strong></li>
-    </ol>
-  </div>
+<p>Meducine gives you control over your personal data. You can delete your Meducine account and associated personal information through the app, whether or not you want to continue using Meducine.</p>
 
-  <h2>What Can Be Deleted</h2>
-  <table>
-    <tr><th>Data Type</th><th>Can Be Deleted Individually?</th></tr>
-    <tr><td>Full account (login, all associated data)</td><td>Yes</td></tr>
-    <tr><td>Name</td><td>Yes</td></tr>
-    <tr><td>Age range, biological sex, family health history</td><td>Yes</td></tr>
-    <tr><td>Learning progress (completed lessons, quiz scores, streaks, XP, badges)</td><td>Yes</td></tr>
-    <tr><td>Bookmarked lessons</td><td>Yes</td></tr>
-    <tr><td>Email address</td><td>Only as part of full account deletion (required for login)</td></tr>
-  </table>
+<h2>How to Delete Your Account</h2>
+<p>You can request deletion of your Meducine account through the <strong>account settings or account deletion options available within the Meducine application</strong>.</p>
+<p>When you request account deletion:</p>
+<ol>
+  <li>Your request will be processed, and your account will be scheduled for deletion.</li>
+  <li>We will take reasonable steps to verify that the request is associated with your account.</li>
+  <li>Personal information associated with your account will be removed from our active systems within <strong>30 days</strong> of a verified deletion request, subject to information that we are required or permitted to retain under applicable law.</li>
+  <li>Once your account is deleted, you will no longer be able to access your account or associated learning progress.</li>
+</ol>
 
-  <h2>What Happens After Deletion</h2>
-  <ul>
-    <li>Requested data is permanently removed from our active database within 30 days of a verified request</li>
-    <li>If you delete your full account, you will be logged out and will need to create a new account to use Meducine again</li>
-    <li>Deleting individual data types (e.g., family health history) does not affect your ability to keep using your account — only that specific information is removed</li>
-    <li>Some information may be retained for a limited period where required for legal, security, or fraud-prevention purposes, after which it is also deleted</li>
-  </ul>
+<h2>What Can Be Deleted</h2>
+<table>
+  <tr>
+    <th>Data Type</th>
+    <th>Can Be Deleted Individually?</th>
+  </tr>
+  <tr>
+    <td>Full account (login and all associated personal data)</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>Yes, where account settings support this</td>
+  </tr>
+  <tr>
+    <td>Age range, biological sex, family health history</td>
+    <td>Yes, where account settings support this</td>
+  </tr>
+  <tr>
+    <td>Learning progress (completed lessons, quiz scores, streaks, XP, badges)</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Bookmarked lessons</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>Email address</td>
+    <td>Only as part of full account deletion, as it may be required for account login</td>
+  </tr>
+</table>
+<p>Where individual data controls are available within the Meducine application, you may remove optional information without deleting your entire account.</p>
 
-  <h2>Guest Mode Users</h2>
-  <p>If you used Meducine without creating an account (Guest mode), your data is stored only on your device and was never sent to our servers. You can delete it at any time simply by uninstalling the app — no request needed.</p>
+<h2>What Happens After Deletion</h2>
+<ul>
+  <li>Personal information associated with your account will be removed from our active database within <strong>30 days</strong> of a verified deletion request.</li>
+  <li>If you delete your full account, you will be logged out and will need to create a new account to use account-based features again.</li>
+  <li>Your account-based learning progress, including completed lessons, quiz scores, streaks, XP, badges, and bookmarks, will be deleted or anonymized as applicable.</li>
+  <li>Deleting individual optional information, such as family health history, does not affect your ability to continue using your account or Meducine's general educational content.</li>
+  <li>Some information may be retained for a limited period where required or permitted for legal, security, fraud-prevention, dispute-resolution, or other legitimate purposes. Such information will be retained only for as long as reasonably necessary and handled in accordance with our Privacy Policy.</li>
+  <li>Information stored in backups may take additional time to be fully removed in accordance with our backup and security processes.</li>
+</ul>
 
-  <h2>Questions?</h2>
-  <p>Contact us at <span class="email-highlight">dev.meducine@gmail.com</span> for anything related to your data, including this deletion process.</p>
+<h2>Guest Mode Users</h2>
+<p>If you use Meducine without creating an account through <strong>Guest mode</strong>, your learning progress is stored locally on your device and is not associated with a Meducine account or directly linked to your identity.</p>
+<p>You can generally delete Guest mode data by uninstalling the Meducine application or clearing its application data, depending on your device settings. No account deletion request is required.</p>
 
-  <p style="margin-top:40px; color: var(--text-muted); font-size:0.85rem;">See also our <a href="https://claude.ai/artifact/Ko7voh8oCRsaPvoqRRsfqQ">Privacy Policy</a> for full details on what data we collect and how it's used.</p>
-</div>
+<h2>Questions?</h2>
+<p>If you have questions about your personal data, account deletion, or Meducine's privacy practices, contact us at <strong>dev.meducine@gmail.com</strong>.</p>
+<p>See also our <strong>Privacy Policy</strong> for full details about the information Meducine collects, how it is used, how it may be shared, and your privacy choices.</p>
+
+<footer>
+  <p>&copy; 2026 Meducine Inc. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
